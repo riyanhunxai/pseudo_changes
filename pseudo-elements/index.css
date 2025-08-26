@@ -1,0 +1,29 @@
+h1::first-letter{
+    font-size:2em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* place holder */
+p::first-line{
+    background-color: aqua;
+}
+p::selection{
+    background-color: red;
+    color: white;
+}
+
+.fruit li::before{
+   content: none;
+}
+.apple::after{
+    content: "🍎";
+}
+.orange::after{
+    content: "🍊"
+}
+.grapes::after{
+    content: "🍇";
+}
+.fruit li::marker{
+    content: "✅";
+    font-size:20px;
+}
